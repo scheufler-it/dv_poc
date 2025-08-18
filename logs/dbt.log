@@ -1,0 +1,94 @@
+[0m10:30:29.634923 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 10:30:29.651416 | 29f4a082-299f-48da-b7b2-b51a2f213a82 ==============================
+[0m10:30:29.651416 [info ] [MainThread]: Running with dbt=1.10.6
+[0m10:30:29.652080 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/cosroe/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:30:41.589140 [info ] [MainThread]: A project called openflights already exists here.
+[0m10:30:41.606908 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 12.010551, "process_in_blocks": "0", "process_kernel_time": 0.153089, "process_mem_max_rss": "102989824", "process_out_blocks": "0", "process_user_time": 0.823149}
+[0m10:30:41.608402 [debug] [MainThread]: Command `dbt init` succeeded at 10:30:41.608195 after 12.01 seconds
+[0m10:30:41.609003 [debug] [MainThread]: Flushing usage events
+[0m10:30:54.331290 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 10:30:54.342271 | 52e1caf6-248d-4c86-8bac-d83064bd86d5 ==============================
+[0m10:30:54.342271 [info ] [MainThread]: Running with dbt=1.10.6
+[0m10:30:54.342875 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/cosroe/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m10:30:58.675386 [debug] [MainThread]: Starter project path: /opt/miniconda3/envs/data/lib/python3.10/site-packages/dbt/include/starter_project
+[0m10:30:58.690003 [info ] [MainThread]: 
+Your new dbt project "openflights_dv" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:30:58.690718 [info ] [MainThread]: Setting up your profile.
+[0m10:31:30.350500 [info ] [MainThread]: Profile openflights_dv written to /Users/cosroe/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m10:31:30.356534 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 36.061745, "process_in_blocks": "0", "process_kernel_time": 0.120632, "process_mem_max_rss": "106446848", "process_out_blocks": "0", "process_user_time": 0.813714}
+[0m10:31:30.357565 [debug] [MainThread]: Command `dbt init` succeeded at 10:31:30.357396 after 36.06 seconds
+[0m10:31:30.358221 [debug] [MainThread]: Flushing usage events
+[0m14:56:24.740247 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 14:56:24.753232 | feee80b4-2ee5-4818-904e-2edfe657a0af ==============================
+[0m14:56:24.753232 [info ] [MainThread]: Running with dbt=1.10.6
+[0m14:56:24.753865 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/cosroe/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt deps', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:56:24.754423 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/cosroe/Documents/GitHub/DV2.0_PoC&Blog/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:56:24.756506 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": false, "command_wall_clock_time": 0.054309625, "process_in_blocks": "0", "process_kernel_time": 0.111211, "process_mem_max_rss": "102023168", "process_out_blocks": "0", "process_user_time": 0.755997}
+[0m14:56:24.756804 [debug] [MainThread]: Command `dbt deps` failed at 14:56:24.756751 after 0.05 seconds
+[0m14:56:24.757001 [debug] [MainThread]: Flushing usage events
+[0m14:56:33.219766 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 14:56:33.230744 | d17abdde-0f67-4954-9b72-a240add85666 ==============================
+[0m14:56:33.230744 [info ] [MainThread]: Running with dbt=1.10.6
+[0m14:56:33.231424 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/cosroe/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt clean', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:56:33.232035 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/cosroe/Documents/GitHub/DV2.0_PoC&Blog/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:56:33.233456 [debug] [MainThread]: Resource report: {"command_name": "clean", "command_success": false, "command_wall_clock_time": 0.049462665, "process_in_blocks": "0", "process_kernel_time": 0.088977, "process_mem_max_rss": "103235584", "process_out_blocks": "0", "process_user_time": 0.763796}
+[0m14:56:33.233750 [debug] [MainThread]: Command `dbt clean` failed at 14:56:33.233694 after 0.05 seconds
+[0m14:56:33.233934 [debug] [MainThread]: Flushing usage events
+[0m12:08:04.533253 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 12:08:04.549937 | 4a83ced7-072c-4ab5-a19f-5a9475d4edf0 ==============================
+[0m12:08:04.549937 [info ] [MainThread]: Running with dbt=1.10.6
+[0m12:08:04.550697 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/cosroe/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m12:08:27.005966 [debug] [MainThread]: Starter project path: /opt/miniconda3/envs/data/lib/python3.10/site-packages/dbt/include/starter_project
+[0m12:08:27.016486 [info ] [MainThread]: 
+Your new dbt project "dv2" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:08:27.017116 [info ] [MainThread]: Setting up your profile.
+[0m12:10:23.820284 [info ] [MainThread]: Profile dv2 written to /Users/cosroe/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:10:23.837402 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 139.34598, "process_in_blocks": "0", "process_kernel_time": 0.180235, "process_mem_max_rss": "107003904", "process_out_blocks": "0", "process_user_time": 0.884624}
+[0m12:10:23.838132 [debug] [MainThread]: Command `dbt init` succeeded at 12:10:23.837978 after 139.35 seconds
+[0m12:10:23.838625 [debug] [MainThread]: Flushing usage events

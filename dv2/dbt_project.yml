@@ -1,0 +1,41 @@
+name: 'dv2'
+version: '1.0.0'
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'dv2'
+
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+# Configuring models
+# Full documentation: https://docs.getdbt.com/docs/configuring-models
+
+models:
+  dv2:
+    pre-staging:
+      +materialized: view
+      +schema: staging
+    staging:
+      +materialized: view
+      +schema: staging
+    vault:
+      +materialized: incremental
+      +schema: vault
+    mart_airline_route_performance:
+      +materialized: table
+      +schema: mart_airline_route_performance
+    mart_airport_connectivity:
+      +materialized: table
+      +schema: mart_airport_connectivity
+    mart_plane_utilization:
+      +materialized: table
+      +schema: mart_plane_utilization

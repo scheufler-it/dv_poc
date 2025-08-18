@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+    - name: dv
+      database: dv
+      schema: landing_zone
+      tables:
+        - name: airlines
+        - name: airports
+        - name: airports_extended
+        - name: countries
+        - name: planes
+        - name: routes
