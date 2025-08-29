@@ -141,7 +141,7 @@ Wir hoffen, dass Sie durch diese einfache praktische Implementierung nun ein bes
 
 Ob Sie Data Vault einsetzen sollten oder nicht, ist eine wichtige und vielschichtige Frage, die Sie sorgfältig anhand Ihrer Datenquellen, BI-Anforderungen und Datenvolumina sowie weiterer Faktoren abwägen sollten.
 
-Wir würden uns sehr über Ihr Feedback zu dieser Blogserie freuen, ebenso wie über Kommentare, Anmerkungen oder Fragen. Vielen Dank und bis zum nächsten Mal!@
+Wir würden uns sehr über Ihr Feedback zu dieser Blogserie freuen, ebenso wie über Kommentare, Anmerkungen oder Fragen. Vielen Dank und bis zum nächsten Mal!
 
 # Quellen
 - Scalefree (kein Datum) Data Vault 2.0 definition. Verfügbar unter: https://www.scalefree.com/consulting/data-vault-2-0/ (Zugriff: 28. August 2025).
