@@ -20,7 +20,7 @@ The next core concept, **Links**, captures the relationships and business events
 
 **Satellites** house all the descriptive attributes and context that change over time. Every Hub and Link can have multiple Satellites attached, each capturing different aspects of the entity at different points in time. A Customer Hub might have separate Satellites for demographic information, preferences, credit ratings, and these Satellites could have their own change history and load patterns. This granular separation allows for precise historical tracking and enables team to load and update different attribute sets independently.
 
-In addition to the core entities in Data Vault, there are also so-called derived entities that are used to address more specific business needs. These include, but are not limited to, Point-in-Time (PIT) tables and Bridge tables. We will not discuss these as they are more advanced entities and outside the scope of this blog.
+In addition to the core entities in Data Vault, there are also so-called derived entities that are used to address more specific business needs. These include, but are not limited to, Point-in-Time (PIT) tables and Bridge tables. We will not discuss these as they are more advanced entities and outside the scope of this blog. Please reach out if you require clarification on other more specific data vault entities.
 
 - Picture of an example hub, link, and satellites
 
@@ -43,3 +43,6 @@ The **Business Vault** introduces calculated fields, business rules, and derived
 ---
 
 Now that we've covered the main concepts of Data Vault 2.0, we'll implement an example warehouse to see how everything fits together in practice. Stay tuned for the next blog, and don't hesitate to reach out with any questions or comments. See you soon!
+
+---
+
